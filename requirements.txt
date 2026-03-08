@@ -1,0 +1,6 @@
+git+https://github.com/huggingface/peft.git
+transformers==4.55.4
+datasets
+trackio
+torch
+tqdm

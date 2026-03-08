@@ -1,0 +1,97 @@
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
+Loading merged model from ./checkpoints/fixed/merged …
+Generating 50 completions …
+
+--- Example 1 [OK] ---
+  Instruction: Generate a chessboard with the given size and with pieces at the specified positions.
+  Generated:   <|thinking|>[Picture of a 8x8 chess board with pieces at specified positions]</|thinking|><|answer|>[Picture of a 8x8 chess board with pieces at specified positions]</|answer|>
+
+--- Example 2 [OK] ---
+  Instruction: Find a word in the sentence that is used as a noun.
+  Generated:   <|thinking|>The word "store" is used as a noun in the sentence.</|thinking|><|answer|>The word "store" is used as a noun in the sentence.</|answer|>
+
+--- Example 3 [OK] ---
+  Instruction: Write pseudocode for a Merge Sort algorithm.
+  Generated:   <|thinking|>The pseudocode for a Merging Sort algorithm is as follows:  1.</|thinking|><|answer|>Create a auxiliary array of the same size as the input array. 2. Start a loop that runs until the auxil
+
+--- Example 4 [OK] ---
+  Instruction: Provide a evidence explaining why the following code is incorrect.
+  Generated:   <|thinking|>The code is incorrect because the function add requires two arguments, but only one argument is provided when the function is called.</|thinking|><|answer|>This will cause a runtime error.
+
+--- Example 5 [OK] ---
+  Instruction: Compare and contrast Object-Oriented Programming and Functional Programming.
+  Generated:   <|thinking|>Object-oriented programming (OOP) and functional programming (MP) are two distinct programming paradigms.</|thinking|><|answer|>OOP is based on the idea of objects and objects-oriented pro
+
+--- Example 6 [OK] ---
+  Instruction: Compose a tweet explaining why Python is a popular programming language.
+  Generated:   <|thinking|>Python is a great programming language because it is easy to learn, powerful, and versatile.</|thinking|><|answer|>It is also widely used in the development of websites, applications, and 
+
+--- Example 7 [OK] ---
+  Instruction: Rewrite the following statement using formal English.
+  Generated:   <|thinking|>She does not possess any money.</|thinking|><|answer|>She does not possess any money.</|answer|>
+
+--- Example 8 [OK] ---
+  Instruction: Find and explain the fallacy in the following argument.
+  Generated:   <|thinking|>This argument is a logical fallacy because it is reasoning from a single observation (all birds can fly) to a conclusion (all mammals must be able to fly).</|thinking|><|answer|>This argum
+
+--- Example 9 [OK] ---
+  Instruction: Explain the difference between gradient descent and a genetic algorithms.
+  Generated:   <|thinking|>The main difference between a genetic algorithm and a standard descent method is that a genetic algorithm uses evolutionary principles to search for solutions to a problem, while descent m
+
+--- Example 10 [OK] ---
+  Instruction: Please provide input to complete the following sentence.
+  Generated:   <|thinking|>The most common form of depression is major depression.</|thinking|><|answer|>The most common form of depression is major depression.</|answer|>
+
+============================================================
+Structural Token Accuracy: 49/50  (98.0%)
+============================================================
+Results saved to ./checkpoints/fixed/generation_results.json
