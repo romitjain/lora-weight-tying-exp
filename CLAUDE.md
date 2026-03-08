@@ -19,6 +19,7 @@ Note: `peft` is installed from GitHub HEAD (not PyPI) because `ensure_weight_tyi
 ## Commands
 
 **Training** (~30-45 min per run on 3090/4090, runs sequentially):
+
 ```bash
 python train.py --run_name broken --seed 42 2>&1 | tee logs/broken.txt
 python train.py --run_name fixed --seed 42 2>&1 | tee logs/fixed.txt
@@ -26,6 +27,7 @@ python train.py --run_name baseline --seed 42 2>&1 | tee logs/baseline.txt
 ```
 
 **Generation eval** (only for broken/fixed — baseline has no structural tokens):
+
 ```bash
 python eval_gen.py --checkpoint_dir ./checkpoints/broken 2>&1 | tee logs/eval_broken.txt
 python eval_gen.py --checkpoint_dir ./checkpoints/fixed 2>&1 | tee logs/eval_fixed.txt
@@ -36,7 +38,7 @@ python eval_gen.py --checkpoint_dir ./checkpoints/fixed 2>&1 | tee logs/eval_fix
 ### Experimental Conditions
 
 | `--run_name` | `modules_to_save` | `ensure_weight_tying` | Purpose |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `broken` | `["embed_tokens"]` | `False` | Demonstrates broken tying |
 | `fixed` | `["embed_tokens"]` | `True` | Demonstrates correct tying |
 | `baseline` | `[]` | N/A | Standard LoRA, no new tokens |
